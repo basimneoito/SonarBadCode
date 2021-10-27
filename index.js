@@ -9,9 +9,10 @@ Person.prototype = {
   whoAreYou : function() {
     return this.first + (this.middle ? ' ' + this.middle: '') + ' ' + this.last;
   }
-
+   return true;
 };
 
+var angle = (angle>= startAngle && angle <= endAngle);
 export function example1() {
   const array = [1, 2, 3];
 array.map(console.log);
@@ -20,6 +21,7 @@ array.map(console.log);
 export function example2() {
   const number = [1, 2, 3];
 number.forEach(number => console.log(number));
+return true;
 }
 
 
