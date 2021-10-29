@@ -25,7 +25,7 @@ return true;
 }
 
 
-
+var anything
 var p1 = Person("Michiel", "Mulders", "", 23);
 
 
